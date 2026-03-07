@@ -16,8 +16,8 @@ My work sits at the intersection of **mathematical optimization**, **AI**, and
 
 | Project | Lab | Topic |
 |---|---|---|
-| [Bilinear Tensor Optimization](https://github.com/Tewf/bilinear-tensor-optimization) | LJK – UGA | Alternative bases for matrix multiplication via sparse tensor decompositions |
 | [AI & Strategic Pricing](https://github.com/Tewf/IA-Economie-Strategique) | GAEL – INRAE | Algorithmic collusion in Bertrand pricing games — tabular Q-learning agents in repeated interactions |
+| [Bilinear Tensor Optimization](https://github.com/Tewf/bilinear-tensor-optimization) | LJK – UGA | Alternative bases for matrix multiplication via sparse tensor decompositions |
 
 ---
 
