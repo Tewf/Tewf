@@ -25,7 +25,7 @@ My work sits at the intersection of **mathematical optimization**, **AI**, and
 
 **Languages:** Python · Julia · R · Java · JavaScript · Prolog · SQL  
 **Tools:** Jupyter · Quarto · LaTeX · Git · NumPy · scikit-learn  
-**Domains:** Optimization · Machine Learning · Econometrics ·
+**Domains:** Mathematical Optimization · Machine Learning · Econometrics · Game Theory · Multi-Agent Systems
 
 ---
 
