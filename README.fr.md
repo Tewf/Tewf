@@ -1,6 +1,16 @@
-# Salut, je suis Mohamed (Tewf) 👋
-Je suis étudiant en **MIASHS** (Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales) à l'**Université Grenoble Alpes** — lauréat de la bourse d'excellence **EFELIA–MIAI** (Institut MIAI, réseau national français d'excellence en IA) et titulaire du statut national **Étudiant-Entrepreneur** (SNEE, Pépite France).
-Mon travail se situe à l'intersection de l'**optimisation mathématique**, de l'**IA** et de l'**économie** — de l'algèbre tensorielle aux modèles de prix en théorie des jeux.
+# Bonjour, je suis Mohamed (Tewf) 👋
+
+🇬🇧 [English version](README.md)
+
+Étudiant en **MIASHS** (Mathématiques Appliquées, Informatique & Économie)
+à l'**Université Grenoble Alpes** — lauréat de la **bourse d'excellence EFELIA–MIAI**
+(Institut MIAI, réseau national d'excellence en IA)
+et titulaire du **Statut National Étudiant-Entrepreneur** (SNEE, Pépite France).
+
+Mes travaux se situent à l'intersection de l'**optimisation mathématique**, de l'**IA**
+et de l'**économie** — de l'algèbre tensorielle aux modèles de tarification stratégique.
+
+--
 ---
 ## 🔬 Recherche & Stages
 | Projet | Laboratoire | Sujet |
