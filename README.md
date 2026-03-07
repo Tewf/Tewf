@@ -2,13 +2,9 @@
 
 🇫🇷 [Version française](README.fr.md)
 
-I'm a student in **MIASHS** (Applied Mathematics, Computer Science & Economics)
-at **Université Grenoble Alpes**, France — recipient of the
-**EFELIA–MIAI excellence scholarship** (Institut MIAI, French national AI excellence network)
-and holder of the **National Student-Entrepreneur status** (SNEE, Pépite France).
+I'm a student in **MIASHS** (Applied Mathematics, Computer Science & Economics) at **Université Grenoble Alpes**, France — recipient of the **EFELIA–MIAI excellence scholarship** (Institut MIAI, French national AI excellence network) and holder of the **National Student-Entrepreneur status** (SNEE, Pépite France).
 
-My work sits at the intersection of **mathematical optimization**, **AI**, and
-**economics** — from tensor algebra to game-theoretic pricing models.
+My work sits at the intersection of **mathematical optimization**, **AI**, and **economics** — from tensor algebra to game-theoretic pricing models.
 
 ---
 
@@ -16,7 +12,7 @@ My work sits at the intersection of **mathematical optimization**, **AI**, and
 
 | Project | Lab | Topic |
 |---|---|---|
-| [AI & Strategic Pricing](https://github.com/Tewf/IA-Economie-Strategique) | GAEL – INRAE | Algorithmic collusion in Bertrand pricing games — tabular Q-learning agents in repeated interactions |
+| [AI & Strategic Pricing](https://github.com/Tewf/IA-Economie-Strategique) | GAEL – INRAE / UGA | Influence of AI on cooperative behaviour in repeated price competition games — game-theoretic analysis and Prolog agent design |
 | [Bilinear Tensor Optimization](https://github.com/Tewf/bilinear-tensor-optimization) | LJK – UGA | Alternative bases for matrix multiplication via sparse tensor decompositions |
 
 ---
