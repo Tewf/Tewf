@@ -2,33 +2,44 @@
 
 🇬🇧 [English version](README.md)
 
-Étudiant en **MIASHS** (Mathématiques Appliquées, Informatique & Économie) à l'**Université Grenoble Alpes** — lauréat de la **bourse d'excellence EFELIA–MIAI** (Institut MIAI, réseau national d'excellence en IA) et titulaire du **Statut National Étudiant-Entrepreneur** (SNEE, Pépite France).
+Étudiant en **M1 Intelligence Artificielle** à l'**Université Grenoble Alpes** (UFR-IM²AG) — lauréat de la **bourse d'excellence EFELIA–MIAI** (Institut MIAI, réseau national d'excellence en IA) et titulaire du **Statut National Étudiant-Entrepreneur** (SNEE, Pépite France).
 
-Mes travaux se situent à l'intersection de l'**optimisation mathématique**, de l'**IA** et de l'**économie** — de l'algèbre tensorielle aux modèles de tarification stratégique.
+Je travaille là où l'**optimisation** rencontre l'**apprentissage automatique** — algèbre tensorielle, programmation combinatoire et en nombres entiers, et modèles de théorie des jeux sur le comportement réel des agents.
 
 ---
 
-## 🔬 Recherche & Stages
+## 🔧 Ce que j'ai construit
+
+| Projet | Description | Stack |
+|---|---|---|
+| [Side Projects](https://github.com/Tewf/Side_Projects) | Un CNN qui apprend Flappy Bird à partir des pixels bruts via REINFORCE · un solveur 3-SAT from scratch par bases de Gröbner sur GF(2) · des algorithmes matriciels réimplémentés de zéro (multiplication par FFT, déterminant en O(n^log n)) | Python, PyTorch, NumPy |
+| [Grenoble Housing Prices](https://github.com/Tewf/grenoble-housing-prices) | Modèle de prix hédonique de l'immobilier grenoblois sur les données ouvertes DVF — nettoyage, régression MCO avec diagnostics d'hétéroscédasticité, extension par forêt aléatoire | Python, pandas, statsmodels, scikit-learn |
+| [Complement_IA](https://github.com/Tewf/Complement_IA) | Moteur de bataille navale avec bots de ciblage probabiliste (Markov, Monte-Carlo), confrontés par un protocole de tournoi reproductible. Sous intégration continue. | Java 17, Swing, GitHub Actions |
+
+## 🔬 Recherche
+
+Deux stages de recherche, tous deux dans des laboratoires de l'Université Grenoble Alpes :
 
 | Projet | Laboratoire | Sujet |
 |---|---|---|
-| [IA & Tarification Stratégique](https://github.com/Tewf/IA-Economie-Strategique) | GAEL – INRAE / UGA | Influence de l'IA sur les comportements coopératifs dans des jeux de concurrence par les prix répétés — analyse par la théorie des jeux et conception d'agents en Prolog |
-| [Optimisation Tensorielle Bilinéaire](https://github.com/Tewf/bilinear-tensor-optimization) | LJK – UGA | Bases alternatives pour la multiplication matricielle via décompositions tensorielles creuses |
+| [Optimisation Tensorielle Bilinéaire](https://github.com/Tewf/bilinear-tensor-optimization) | **LJK** – UGA | Bases alternatives pour la multiplication matricielle via décompositions tensorielles creuses ; minimisation du rang tensoriel bilinéaire sous contraintes d'automorphismes |
+| [IA & Tarification Stratégique](https://github.com/Tewf/IA-Economie-Strategique) | **GAEL** – INRAE / UGA | Les agents IA favorisent-ils la coopération dans les jeux de concurrence par les prix répétés — analyse par la théorie des jeux et conception d'agents en Prolog |
 
 ---
 
 ## 🛠️ Stack Technique
 
-**Langages :** Python · Julia · R · Java · JavaScript · Prolog · SQL  
-**Outils :** Jupyter · Quarto · LaTeX · Git · NumPy · scikit-learn  
-**Domaines :** Optimisation Mathématique · Machine Learning · Économétrie · Théorie des Jeux · Systèmes Multi-Agents
+**Langages :** Python · C++ · Java · R · Julia · JavaScript · SQL · Prolog · OCaml
+**Outils :** Jupyter · Quarto · LaTeX · Git · NumPy · scikit-learn · PyTorch
+**Domaines :** Optimisation Mathématique · Recherche Opérationnelle · Machine Learning · Économétrie · Théorie des Jeux · Systèmes Multi-Agents
+
+**Langues :** arabe (natif) · français (courant) · anglais (courant)
 
 ---
 
 ## 📁 Explorer
 
-- 🎓 [University-Coursework](https://github.com/Tewf/University-Coursework) — portfolio structuré de mes travaux universitaires (stats, algo, économétrie, web...)
-- 💡 [Side_Projects](https://github.com/Tewf/Side_Projects) — expérimentations algorithmiques hors cursus
+- 🎓 [University-Coursework](https://github.com/Tewf/University-Coursework) — portfolio structuré de mes travaux universitaires : statistiques, économétrie, machine learning, algorithmique et paradigmes de programmation
 
 ---
 
