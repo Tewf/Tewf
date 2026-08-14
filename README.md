@@ -1,44 +1,35 @@
-# Mohamed Hamlil
+# Hi, I'm Mohamed 👋
 
 🇫🇷 [Version française](README.fr.md)
 
-M1 student in Artificial Intelligence at Université Grenoble Alpes.
-EFELIA–MIAI excellence scholar, student-entrepreneur under the French SNEE status.
+I'm an M1 student in **Artificial Intelligence** at **Université Grenoble Alpes**,
+holder of the **EFELIA–MIAI** excellence scholarship and of the French
+**student-entrepreneur** status (SNEE).
 
-I care less about *which model* than about what a computation really costs, and
-how agents behave once you let them optimise.
+I like problems where the answer can be measured — what a computation actually
+costs, and what agents end up doing once you let them optimise. That takes me
+from tensor algebra to game theory to whatever I feel like building on a weekend.
 
----
+Always happy to talk about any of it.
 
-### [side-projects](https://github.com/Tewf/side-projects)
+## My repositories
 
-What I build in my own time. A convolutional policy network that learns Flappy
-Bird from raw pixels and nothing else. A 3-SAT decision procedure that turns
-clauses into polynomials over GF(2) and lets elimination do the reasoning — with
-a write-up that reports where that stops working, because it does. France's
-income tax treated as a continuous model and solved with the Lambert W function.
+**[side-projects](https://github.com/Tewf/side-projects)** — what I build in my
+own time. A CNN that learns Flappy Bird from raw pixels, a 3-SAT solver over
+GF(2), matrix algorithms written from scratch, the French income tax modelled
+with the Lambert W function.
 
-### [University-Coursework](https://github.com/Tewf/University-Coursework)
+**[University-Coursework](https://github.com/Tewf/University-Coursework)** —
+everything from my Licence MIASHS: statistics, econometrics, machine learning, a
+Java game engine with probabilistic AI, and the programming paradigm courses.
 
-Statistics and machine learning in R, econometrics on French land-registry open
-data, a Java game engine with probabilistic AI, and the functional, logic and
-relational paradigm courses. Source next to rendered output, so it reads without
-cloning anything.
+**[bilinear-tensor-optimization](https://github.com/Tewf/bilinear-tensor-optimization)**
+— my research internship at the **LJK**, on lowering the rank of bilinear maps:
+how few multiplications a product actually needs.
 
-### [bilinear-tensor-optimization](https://github.com/Tewf/bilinear-tensor-optimization) · LJK
-
-Multiplying two 2×2 matrices takes eight multiplications the obvious way.
-Strassen found seven, and that one saved multiplication is where fast matrix
-multiplication comes from. Doing the same for arbitrary bilinear maps is open.
-Research internship at the Laboratoire Jean Kuntzmann, supervised by
-Jean-Guillaume Dumas.
-
-### [IA-Economie-Strategique](https://github.com/Tewf/IA-Economie-Strategique) · GAEL
-
-In repeated price competition humans drift towards higher prices without ever
-agreeing to anything. Whether algorithms do the same is not settled, and it
-matters for competition policy. Research internship at the Grenoble Applied
-Economics Laboratory (INRAE / UGA).
+**[IA-Economie-Strategique](https://github.com/Tewf/IA-Economie-Strategique)** —
+my research internship at **GAEL**, on whether AI agents end up colluding in
+repeated price competition.
 
 ---
 
