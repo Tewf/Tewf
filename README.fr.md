@@ -8,15 +8,28 @@ Je travaille là où l'**optimisation** rencontre l'**apprentissage automatique*
 
 ---
 
-## 🔧 Ce que j'ai construit
+## 🧪 [Side Projects](https://github.com/Tewf/Side_Projects) — mon labo
+
+Des choses construites parce que je voulais savoir si ça marchait. Tout en solo,
+tout exécutable.
+
+| | |
+|---|---|
+| [**Flappy Bird à partir des pixels**](https://github.com/Tewf/Side_Projects/tree/main/Flappy_Bird_CNN) | Un CNN à 3 couches entraîné par gradient de politique REINFORCE sur des images 84×84 en niveaux de gris — aucun état de jeu, seulement ce que l'écran montre. *PyTorch, Pygame, Gymnasium* |
+| [**Solveur 3-SAT par bases de Gröbner**](https://github.com/Tewf/Side_Projects/tree/main/Groebner_Basis_SAT_Solver) | Encode les clauses en polynômes de GF(2)[x₁…xₙ]/(xᵢ²−xᵢ), propage par élimination triangulaire, puis branche. Vérifié contre une énumération exhaustive — et le write-up dit franchement où l'algèbre cesse d'aider. *Python* |
+| [**Algèbre linéaire réimplémentée**](https://github.com/Tewf/Side_Projects/tree/main/Linear_Algebra) | Multiplication par FFT 2D · déterminant en O(n^log n) par complément de Schur · trace d'un produit sans former le produit · pivot de Gauss en rationnels exacts. *Python, NumPy* |
+| [**L'impôt français, modélisé**](https://github.com/Tewf/Side_Projects/tree/main/Taxes) | Ajustements exponentiels par tranche, puis la fonction W de Lambert pour localiser le point de bascule fiscal — 62 114 € brut. *SciPy, Quarto* |
+| [**Tris animés en 3D**](https://github.com/Tewf/Side_Projects/tree/main/Blender_Python_Scripts) | Tri à bulles et tri fusion animés en barres mobiles, scriptés via l'API Python de Blender. *API Blender* |
+
+## 🔧 Projets de cours
+
+Travaux de groupe ; les collaborateurs sont crédités dans chaque dépôt.
 
 | Projet | Description | Stack |
 |---|---|---|
-| [Side Projects](https://github.com/Tewf/Side_Projects) | Un CNN qui apprend Flappy Bird à partir des pixels bruts via REINFORCE · un solveur 3-SAT from scratch par bases de Gröbner sur GF(2) · des algorithmes matriciels réimplémentés de zéro (multiplication par FFT, déterminant en O(n^log n)) | Python, PyTorch, NumPy |
-| [Grenoble Housing Prices](https://github.com/Tewf/grenoble-housing-prices) † | Modèle de prix hédonique de l'immobilier grenoblois sur les données ouvertes DVF — nettoyage, régression MCO avec diagnostics d'hétéroscédasticité, extension par forêt aléatoire | Python, pandas, statsmodels, scikit-learn |
-| [Complement_IA](https://github.com/Tewf/Complement_IA) † | Moteur de bataille navale avec bots de ciblage probabiliste (Markov, Monte-Carlo), confrontés par un protocole de tournoi reproductible. Sous intégration continue. | Java 17, Swing, GitHub Actions |
-
-† Projets universitaires de groupe ; les collaborateurs sont crédités dans chaque dépôt.
+| [Prédiction de satisfaction — parfums](https://github.com/Tewf/University-Coursework/tree/main/Bachelor/L3/S6/ComplementMath2/Projet) · [lire ↗](https://tewf.github.io/University-Coursework/Bachelor/L3/S6/ComplementMath2/Projet/rapport/) | Cinq classifieurs — régression logistique, arbre de décision, forêt aléatoire, kNN, naive Bayes — comparés sur ROC et matrices de confusion, avec séparation anti-fuite et modèles persistés | R, Quarto, ranger, rpart, pROC |
+| [Prix de l'immobilier grenoblois](https://github.com/Tewf/grenoble-housing-prices) | Modèle de prix hédonique sur les données ouvertes DVF — MCO avec diagnostics d'hétéroscédasticité, puis une forêt aléatoire qui ramène le RMSE de 265 k€ à 59 k€ | Python, pandas, statsmodels, scikit-learn |
+| [IA de bataille navale](https://github.com/Tewf/Complement_IA) | Bots de ciblage probabiliste (Markov, Monte-Carlo), confrontés par un protocole de tournoi reproductible. Sous intégration continue. | Java 17, Swing, GitHub Actions |
 
 ## 🔬 Recherche
 
