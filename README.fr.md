@@ -2,7 +2,7 @@
 
 🇬🇧 [English version](README.md)
 
-Étudiant en **M1 Intelligence Artificielle** à l'**Université Grenoble Alpes** (UFR-IM²AG) — lauréat de la **bourse d'excellence EFELIA–MIAI** (Institut MIAI, réseau national d'excellence en IA) et titulaire du **Statut National Étudiant-Entrepreneur** (SNEE, Pépite France).
+Étudiant en première année du [**Master of Artificial Intelligence**](https://m-ai.imag.fr/) à l'**Université Grenoble Alpes** — une formation très sélective co-portée par l'**UFR IM²AG** et **Ensimag** (Grenoble INP). Lauréat de la **bourse d'excellence EFELIA–MIAI** (Institut MIAI, réseau national d'excellence en IA) et titulaire du **Statut National Étudiant-Entrepreneur** (SNEE, Pépite France).
 
 Je travaille là où l'**optimisation** rencontre l'**apprentissage automatique** — algèbre tensorielle, programmation combinatoire et en nombres entiers, et modèles de théorie des jeux sur le comportement réel des agents.
 
