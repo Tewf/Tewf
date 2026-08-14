@@ -13,8 +13,10 @@ I work where **optimisation** meets **machine learning** — tensor algebra, com
 | Project | What it does | Stack |
 |---|---|---|
 | [Side Projects](https://github.com/Tewf/Side_Projects) | A CNN that learns Flappy Bird from raw pixels via REINFORCE · a from-scratch 3-SAT solver using Gröbner bases over GF(2) · matrix algorithms built from nothing (FFT multiplication, O(n^log n) determinant) | Python, PyTorch, NumPy |
-| [Grenoble Housing Prices](https://github.com/Tewf/grenoble-housing-prices) | Hedonic price model of Grenoble real estate on the French DVF land-registry open data — cleaning, OLS baseline with heteroskedasticity diagnostics, random-forest extension | Python, pandas, statsmodels, scikit-learn |
-| [Complement_IA](https://github.com/Tewf/Complement_IA) | Battleship engine with Markov and Monte-Carlo probabilistic targeting bots, benchmarked head-to-head by a reproducible tournament harness. Runs under CI. | Java 17, Swing, GitHub Actions |
+| [Grenoble Housing Prices](https://github.com/Tewf/grenoble-housing-prices) † | Hedonic price model of Grenoble real estate on the French DVF land-registry open data — cleaning, OLS baseline with heteroskedasticity diagnostics, random-forest extension | Python, pandas, statsmodels, scikit-learn |
+| [Complement_IA](https://github.com/Tewf/Complement_IA) † | Battleship engine with Markov and Monte-Carlo probabilistic targeting bots, benchmarked head-to-head by a reproducible tournament harness. Runs under CI. | Java 17, Swing, GitHub Actions |
+
+† University group projects; collaborators are credited in each repository.
 
 ## 🔬 Research
 
