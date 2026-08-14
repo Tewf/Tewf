@@ -4,67 +4,66 @@
 
 M1 du [**Master of Artificial Intelligence**](https://m-ai.imag.fr/) à
 l'Université Grenoble Alpes — co-porté par l'UFR IM²AG et Ensimag (Grenoble INP).
-Lauréat de la bourse d'excellence **EFELIA–MIAI**, et étudiant-entrepreneur sous
+Lauréat de la bourse d'excellence **EFELIA–MIAI**, étudiant-entrepreneur sous
 statut **SNEE**.
 
-**Ce que je cherche.** La question intéressante, dans mon domaine, est rarement
-*quel modèle*. C'est ce qu'un calcul coûte réellement, et comment des agents se
-comportent une fois qu'on les laisse optimiser. Ce fil traverse la complexité
-algébrique, la théorie des jeux et la statistique appliquée — et c'est pourquoi
-les quatre choses ci-dessous semblent sans rapport sans l'être.
+Ce qui m'intéresse est moins *quel modèle* que ce qu'un calcul coûte réellement,
+et comment des agents se comportent une fois qu'on les laisse optimiser.
+
+**[Recherche](#recherche) · [Le labo](#le-labo) · [Travaux appliqués](#travaux-appliqués)**
 
 ---
 
 ## Recherche
 
-Deux stages, tous deux dans des laboratoires de l'Université Grenoble Alpes.
+### Huit multiplications, ou sept ?
 
-### [Optimisation tensorielle bilinéaire](https://github.com/Tewf/bilinear-tensor-optimization) — LJK
+C'est tout le résultat de Strassen, en 1969, pour des matrices 2×2 — et cette
+seule multiplication économisée est la raison même de l'existence de la
+multiplication matricielle rapide. Trouver de telles décompositions dans le cas
+général reste ouvert. J'ai passé 40 jours à en chercher sur des corps finis.
 
-Le rang d'une application bilinéaire est le nombre de multiplications nécessaires
-pour la calculer. Le 7-au-lieu-de-8 de Strassen pour des matrices 2×2 est la
-raison même de l'existence de la multiplication matricielle rapide, et trouver de
-telles décompositions dans le cas général reste ouvert. J'ai construit des
-heuristiques pour abaisser ce rang sur des corps finis, implémentées en Python et
-en Julia, ainsi qu'une méthode de sparsification des opérateurs dont ces
-algorithmes dépendent. Encadré par Jean-Guillaume Dumas.
+→ **[bilinear-tensor-optimization](https://github.com/Tewf/bilinear-tensor-optimization)** · LJK, encadré par Jean-Guillaume Dumas
 
-### [IA & tarification stratégique](https://github.com/Tewf/IA-Economie-Strategique) — GAEL, INRAE/UGA
+### Les algorithmes apprennent-ils à s'entendre ?
 
-Dans une concurrence par les prix répétée, les humains s'entendent tacitement
-plutôt que de converger vers l'équilibre concurrentiel. Les algorithmes font-ils
-de même ? J'ai abordé la question par trois voies : la littérature d'économie
-expérimentale, un modèle de l'imitation fondé sur les neurones miroirs, et un
-agent Prolog confronté aux agents d'autres étudiants lors d'un tournoi.
+Placez des humains dans un jeu de prix répété : ils cessent discrètement de se
+concurrencer. Confiez le même jeu à des agents artificiels et personne ne sait
+vraiment ce qui se passe. Trois mois au GAEL sur cette question : la littérature
+expérimentale, un modèle de l'imitation emprunté aux neurones miroirs, et un
+agent Prolog jeté dans un tournoi contre ceux d'autres étudiants.
+
+→ **[IA-Economie-Strategique](https://github.com/Tewf/IA-Economie-Strategique)** · GAEL, INRAE / UGA
 
 ---
 
-## Ce que je construis seul
+## Le labo
 
-[**Side_Projects**](https://github.com/Tewf/Side_Projects) — des choses
-construites parce que je voulais savoir si ça marchait.
+Des choses construites parce que je voulais savoir si ça marchait.
 
-- **Un CNN qui apprend Flappy Bird à partir des pixels bruts.** Gradient de
-  politique REINFORCE sur des images 84×84 en niveaux de gris, sans aucun accès à
-  l'état du jeu — seulement ce que l'écran montre.
-- **Un solveur 3-SAT bâti sur des bases de Gröbner sur GF(2).** Les clauses
-  deviennent des polynômes, l'élimination triangulaire propage, le branchement
-  termine. Vérifié contre une énumération exhaustive, et le write-up dit
-  franchement où l'algèbre cesse d'aider.
-- **L'impôt français, résolu.** Ajustements exponentiels par tranche, puis la
-  fonction W de Lambert pour localiser le point de bascule fiscal — 62 114 € brut.
+- **Un réseau qui n'a jamais vu le jeu.** 84×84 pixels en entrée, sauter ou non
+  en sortie, REINFORCE pour apprendre.
+- **Un solveur SAT où c'est l'algèbre qui raisonne.** Les clauses deviennent des
+  polynômes sur GF(2), l'élimination propage, le branchement termine — et le
+  write-up dit franchement où l'algèbre cesse de payer.
+- **Le code des impôts, ouvert avec la fonction W de Lambert.** Le point de
+  bascule fiscal se situe à 62 114 € brut.
+
+→ **[Side_Projects](https://github.com/Tewf/Side_Projects)**
 
 ---
 
 ## Travaux appliqués
 
-[**University-Coursework**](https://github.com/Tewf/University-Coursework) —
-statistiques, économétrie et apprentissage automatique sur données réelles, avec
-les sources et leur rendu côte à côte : rien à cloner pour lire.
+Cinq classifieurs, une question : peut-on prédire si quelqu'un aimera un parfum ?
+Courbes ROC, matrices de confusion, et une séparation construite pour que la
+réponse ne fuite pas depuis l'échantillon d'entraînement.
 
-La pièce que j'ouvrirais en premier prédit la satisfaction client pour des
-parfums, en comparant cinq classifieurs sur courbes ROC et matrices de confusion
-avec une séparation à l'épreuve des fuites — [lisible intégralement en ligne](https://tewf.github.io/University-Coursework/Bachelor/L3/S6/ComplementMath2/Projet/rapport/).
+Ce n'est qu'un dossier parmi d'autres — statistiques, économétrie et
+apprentissage automatique sur données réelles, chacun avec sa source et son rendu
+côte à côte.
+
+→ **[University-Coursework](https://github.com/Tewf/University-Coursework)** · [lire le rapport parfums en ligne](https://tewf.github.io/University-Coursework/Bachelor/L3/S6/ComplementMath2/Projet/rapport/)
 
 ---
 
