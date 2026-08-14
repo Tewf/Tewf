@@ -4,66 +4,65 @@
 
 M1 in the [**Master of Artificial Intelligence**](https://m-ai.imag.fr/) at
 Université Grenoble Alpes — jointly delivered by UFR IM²AG and Ensimag
-(Grenoble INP). **EFELIA–MIAI** excellence scholar, and student-entrepreneur
-under the French **SNEE** status.
+(Grenoble INP). **EFELIA–MIAI** excellence scholar, student-entrepreneur under
+the French **SNEE** status.
 
-**What I'm after.** The interesting question in my field is rarely *which model*.
-It is what a computation actually costs, and how agents actually behave once you
-let them optimise. That thread runs from algebraic complexity through game theory
-to applied statistics, and it is why the four things below look unrelated and
-are not.
+I care less about *which model* than about what a computation really costs, and
+how agents behave once you let them optimise.
+
+**[Research](#research) · [The lab](#the-lab) · [Applied work](#applied-work)**
 
 ---
 
 ## Research
 
-Two internships, both in Université Grenoble Alpes laboratories.
+### Eight multiplications, or seven?
 
-### [Bilinear tensor optimisation](https://github.com/Tewf/bilinear-tensor-optimization) — LJK
+That is the whole of Strassen's 1969 result for 2×2 matrices — and that one
+saved multiplication is the reason fast matrix multiplication exists at all.
+Finding such decompositions in general is still open. I spent 40 days looking
+for them over finite fields.
 
-The rank of a bilinear map is the number of multiplications needed to compute it.
-Strassen's 7-instead-of-8 for 2×2 matrices is the reason fast matrix
-multiplication exists at all, and finding such decompositions in general is still
-open. I built heuristics for lowering that rank over finite fields, implemented in
-Python and Julia, and a method for sparsifying the operators these algorithms rely
-on. Supervised by Jean-Guillaume Dumas.
+→ **[bilinear-tensor-optimization](https://github.com/Tewf/bilinear-tensor-optimization)** · LJK, supervised by Jean-Guillaume Dumas
 
-### [AI & strategic pricing](https://github.com/Tewf/IA-Economie-Strategique) — GAEL, INRAE/UGA
+### Do algorithms learn to collude?
 
-Humans tacitly collude in repeated price competition rather than converge to the
-competitive equilibrium. Do algorithms do the same? I approached it from three
-sides: the experimental-economics literature, a model of imitation grounded in
-mirror neurons, and a Prolog agent put up against other students' agents in a
-tournament.
+Put humans in a repeated pricing game and they quietly stop competing. Hand the
+same game to artificial agents and nobody is quite sure what happens. Three
+months at GAEL on that question: the experimental literature, a model of
+imitation borrowed from mirror neurons, and a Prolog agent thrown into a
+tournament against other students'.
+
+→ **[IA-Economie-Strategique](https://github.com/Tewf/IA-Economie-Strategique)** · GAEL, INRAE / UGA
 
 ---
 
-## What I build on my own
+## The lab
 
-[**Side_Projects**](https://github.com/Tewf/Side_Projects) — things I built
-because I wanted to know whether they would work.
+Things I built because I wanted to know whether they would work.
 
-- **A CNN that learns Flappy Bird from raw pixels.** REINFORCE policy gradient on
-  84×84 grayscale frames, with no access to game state — only what the screen
-  shows.
-- **A 3-SAT solver built on Gröbner bases over GF(2).** Clauses become polynomials,
-  triangular elimination propagates, branching finishes the job. Verified against
-  exhaustive enumeration, and the write-up is candid about exactly where the
-  algebra stops helping.
-- **The French income tax, solved.** Exponential fits per bracket, then the
-  Lambert W function to locate the fiscal tipping point — €62,114 gross.
+- **A network that has never seen the game.** 84×84 pixels in, flap or don't
+  out, REINFORCE doing the learning.
+- **A SAT solver where the algebra does the reasoning.** Clauses become
+  polynomials over GF(2), elimination propagates, branching finishes — and the
+  write-up says plainly where the algebra stops earning its keep.
+- **The French tax code, opened with the Lambert W function.** The fiscal
+  tipping point sits at €62,114 gross.
+
+→ **[Side_Projects](https://github.com/Tewf/Side_Projects)**
 
 ---
 
 ## Applied work
 
-[**University-Coursework**](https://github.com/Tewf/University-Coursework) —
-statistics, econometrics and machine learning on real data, with the source and
-its rendered output side by side so it reads without cloning anything.
+Five classifiers, one question: can you predict whether someone will like a
+perfume? ROC curves, confusion matrices, and a split built so the answer isn't
+leaking from the training set.
 
-The piece I would open first predicts customer satisfaction for perfumes,
-comparing five classifiers on ROC curves and confusion matrices with a
-leakage-proof split — [readable in full online](https://tewf.github.io/University-Coursework/Bachelor/L3/S6/ComplementMath2/Projet/rapport/).
+That is one folder of many — statistics, econometrics and machine learning on
+real data, each with its source and its rendered output side by side.
+
+→ **[University-Coursework](https://github.com/Tewf/University-Coursework)** · [read the perfume report online](https://tewf.github.io/University-Coursework/Bachelor/L3/S6/ComplementMath2/Projet/rapport/)
 
 ---
 
