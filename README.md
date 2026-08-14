@@ -2,7 +2,7 @@
 
 🇫🇷 [Version française](README.fr.md)
 
-I'm a **M1 Artificial Intelligence** student at **Université Grenoble Alpes** (UFR-IM²AG) — recipient of the **EFELIA–MIAI excellence scholarship** (Institut MIAI, French national AI excellence network) and holder of the **National Student-Entrepreneur status** (SNEE, Pépite France).
+I'm in the first year of the [**Master of Artificial Intelligence**](https://m-ai.imag.fr/) at **Université Grenoble Alpes** — a highly competitive programme jointly delivered by **UFR IM²AG** and **Ensimag** (Grenoble INP). I hold the **EFELIA–MIAI excellence scholarship** (Institut MIAI, French national AI excellence network) and the **National Student-Entrepreneur status** (SNEE, Pépite France).
 
 I work where **optimisation** meets **machine learning** — tensor algebra, combinatorial and integer programming, and game-theoretic models of how agents actually behave.
 
