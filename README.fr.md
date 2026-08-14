@@ -13,8 +13,10 @@ Je travaille là où l'**optimisation** rencontre l'**apprentissage automatique*
 | Projet | Description | Stack |
 |---|---|---|
 | [Side Projects](https://github.com/Tewf/Side_Projects) | Un CNN qui apprend Flappy Bird à partir des pixels bruts via REINFORCE · un solveur 3-SAT from scratch par bases de Gröbner sur GF(2) · des algorithmes matriciels réimplémentés de zéro (multiplication par FFT, déterminant en O(n^log n)) | Python, PyTorch, NumPy |
-| [Grenoble Housing Prices](https://github.com/Tewf/grenoble-housing-prices) | Modèle de prix hédonique de l'immobilier grenoblois sur les données ouvertes DVF — nettoyage, régression MCO avec diagnostics d'hétéroscédasticité, extension par forêt aléatoire | Python, pandas, statsmodels, scikit-learn |
-| [Complement_IA](https://github.com/Tewf/Complement_IA) | Moteur de bataille navale avec bots de ciblage probabiliste (Markov, Monte-Carlo), confrontés par un protocole de tournoi reproductible. Sous intégration continue. | Java 17, Swing, GitHub Actions |
+| [Grenoble Housing Prices](https://github.com/Tewf/grenoble-housing-prices) † | Modèle de prix hédonique de l'immobilier grenoblois sur les données ouvertes DVF — nettoyage, régression MCO avec diagnostics d'hétéroscédasticité, extension par forêt aléatoire | Python, pandas, statsmodels, scikit-learn |
+| [Complement_IA](https://github.com/Tewf/Complement_IA) † | Moteur de bataille navale avec bots de ciblage probabiliste (Markov, Monte-Carlo), confrontés par un protocole de tournoi reproductible. Sous intégration continue. | Java 17, Swing, GitHub Actions |
+
+† Projets universitaires de groupe ; les collaborateurs sont crédités dans chaque dépôt.
 
 ## 🔬 Recherche
 
