@@ -49,7 +49,7 @@ Des choses construites parce que je voulais savoir si ça marchait.
 - **Le code des impôts, ouvert avec la fonction W de Lambert.** Le point de
   bascule fiscal se situe à 62 114 € brut.
 
-→ **[Side_Projects](https://github.com/Tewf/Side_Projects)**
+→ **[computational-experiments](https://github.com/Tewf/computational-experiments)**
 
 ---
 
