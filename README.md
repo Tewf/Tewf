@@ -49,7 +49,7 @@ Things I built because I wanted to know whether they would work.
 - **The French tax code, opened with the Lambert W function.** The fiscal
   tipping point sits at €62,114 gross.
 
-→ **[Side_Projects](https://github.com/Tewf/Side_Projects)**
+→ **[computational-experiments](https://github.com/Tewf/computational-experiments)**
 
 ---
 
