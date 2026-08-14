@@ -10,59 +10,61 @@ the French **SNEE** status.
 I care less about *which model* than about what a computation really costs, and
 how agents behave once you let them optimise.
 
-**[Research](#research) · [The lab](#the-lab) · [Applied work](#applied-work)**
+**[Research](#research) · [Independent work](#independent-work) · [Coursework](#coursework)**
 
 ---
 
 ## Research
 
-### Eight multiplications, or seven?
+### [bilinear-tensor-optimization](https://github.com/Tewf/bilinear-tensor-optimization) · LJK
 
-That is the whole of Strassen's 1969 result for 2×2 matrices — and that one
-saved multiplication is the reason fast matrix multiplication exists at all.
-Finding such decompositions in general is still open. I spent 40 days looking
-for them over finite fields.
+Multiplying two 2×2 matrices takes eight multiplications if you do it the obvious
+way. Strassen found seven, and that one saved multiplication is where the whole
+field of fast matrix multiplication comes from. Doing the same for arbitrary
+bilinear maps is still open.
 
-→ **[bilinear-tensor-optimization](https://github.com/Tewf/bilinear-tensor-optimization)** · LJK, supervised by Jean-Guillaume Dumas
+I spent forty days on it at the Laboratoire Jean Kuntzmann, building heuristics
+that search for lower-rank decompositions over finite fields, in Python and
+Julia, plus a method for sparsifying the operators those algorithms depend on.
+Supervised by Jean-Guillaume Dumas.
 
-### Do algorithms learn to collude?
+### [IA-Economie-Strategique](https://github.com/Tewf/IA-Economie-Strategique) · GAEL, INRAE / UGA
 
-Put humans in a repeated pricing game and they quietly stop competing. Hand the
-same game to artificial agents and nobody is quite sure what happens. Three
-months at GAEL on that question: the experimental literature, a model of
-imitation borrowed from mirror neurons, and a Prolog agent thrown into a
+In repeated price competition, humans tend to drift towards higher prices without
+ever agreeing to anything. Whether algorithms do the same is not settled, and it
+matters for competition policy.
+
+Three months at GAEL on the question: the experimental-economics literature, a
+model of imitation built on mirror neurons, and a Prolog agent I entered into a
 tournament against other students'.
 
-→ **[IA-Economie-Strategique](https://github.com/Tewf/IA-Economie-Strategique)** · GAEL, INRAE / UGA
+---
+
+## Independent work
+
+### [lab](https://github.com/Tewf/lab)
+
+What I build outside coursework, in reinforcement learning, computer algebra,
+numerical linear algebra and applied modelling.
+
+A convolutional policy network that learns Flappy Bird from raw pixels and
+nothing else. A 3-SAT decision procedure that turns clauses into polynomials over
+GF(2) and lets elimination do the reasoning — with a write-up that reports where
+that stops working, because it does. France's income tax treated as a continuous
+model and solved with the Lambert W function.
 
 ---
 
-## The lab
+## Coursework
 
-Things I built because I wanted to know whether they would work.
+### [University-Coursework](https://github.com/Tewf/University-Coursework)
 
-- **A network that has never seen the game.** 84×84 pixels in, flap or don't
-  out, REINFORCE doing the learning.
-- **A SAT solver where the algebra does the reasoning.** Clauses become
-  polynomials over GF(2), elimination propagates, branching finishes — and the
-  write-up says plainly where the algebra stops earning its keep.
-- **The French tax code, opened with the Lambert W function.** The fiscal
-  tipping point sits at €62,114 gross.
+Three years of applied work: statistics and machine learning in R, econometrics
+on French land-registry open data, a Java game engine with probabilistic AI, and
+the functional, logic and relational paradigm courses.
 
-→ **[computational-experiments](https://github.com/Tewf/computational-experiments)**
-
----
-
-## Applied work
-
-Five classifiers, one question: can you predict whether someone will like a
-perfume? ROC curves, confusion matrices, and a split built so the answer isn't
-leaking from the training set.
-
-That is one folder of many — statistics, econometrics and machine learning on
-real data, each with its source and its rendered output side by side.
-
-→ **[University-Coursework](https://github.com/Tewf/University-Coursework)** · [read the perfume report online](https://tewf.github.io/University-Coursework/Bachelor/L3/S6/ComplementMath2/Projet/rapport/)
+Everything is published with its source next to its rendered output, so it reads
+without cloning anything. The repository's own README indexes every project.
 
 ---
 
