@@ -6,13 +6,6 @@
 (UFR IM²AG et Ensimag), lauréat de la bourse d'excellence **EFELIA-MIAI** et
 titulaire du statut national **étudiant-entrepreneur** (SNEE).
 
-J'aime les problèmes dont on peut mesurer la réponse : ce qu'un calcul coûte
-réellement, et ce que des agents finissent par faire une fois qu'on les laisse
-optimiser. Ça me mène de l'algèbre tensorielle à la théorie des jeux, en passant
-par ce que j'ai envie de construire un week-end.
-
-Toujours partant pour en discuter.
-
 ## Recherche
 
 **[bilinear-tensor-optimization](https://github.com/Tewf/bilinear-tensor-optimization)** :
