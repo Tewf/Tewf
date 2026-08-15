@@ -24,7 +24,7 @@ repeated price competition, and what mechanism would explain it.
 
 ## Projects and studies
 
-**[side-projects](https://github.com/Tewf/side-projects)**: what I build in my
+**[after-hours](https://github.com/Tewf/after-hours)**: what I build in my
 own time. A CNN that learns Flappy Bird from raw pixels, a 3-SAT solver over
 GF(2), matrix algorithms written from scratch, the French income tax modelled
 with the Lambert W function.
