@@ -32,9 +32,9 @@ sur mon temps libre. Un CNN qui apprend Flappy Bird à partir des pixels bruts, 
 solveur 3-SAT sur GF(2), des algorithmes matriciels réimplémentés de zéro,
 l'impôt français modélisé avec la fonction W de Lambert.
 
-**[University-Coursework](https://github.com/Tewf/University-Coursework)** : tout
-mon parcours universitaire à l'UGA, la Licence MIASHS et le Master Intelligence
-Artificielle au fil de sa production.
+**[University-Coursework](https://github.com/Tewf/University-Coursework)** : la Licence
+MIASHS et le M1 IA à l'UGA, de bout en bout. RMSE ramené de 265 k€ à 59 k€ en prix
+hédoniques, cinq classifieurs comparés sur ROC, un bot de bataille navale qui gagne 74 %.
 
 ---
 
