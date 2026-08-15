@@ -6,6 +6,9 @@ I'm an M1 student in **Artificial Intelligence** at **Université Grenoble Alpes
 (UFR IM²AG and Ensimag), holder of the **EFELIA-MIAI** excellence scholarship and
 of the French **student-entrepreneur** status (SNEE).
 
+Everything below, at more length and with the figures:
+**[tewf.github.io](https://tewf.github.io)**
+
 ## Research
 
 **[bilinear-tensor-optimization](https://github.com/Tewf/bilinear-tensor-optimization)** · *LJK, Université Grenoble Alpes · supervised by Jean-Guillaume Dumas · May to July 2024*

@@ -6,6 +6,9 @@
 (UFR IM²AG et Ensimag), lauréat de la bourse d'excellence **EFELIA-MIAI** et
 titulaire du statut national **étudiant-entrepreneur** (SNEE).
 
+Tout ce qui suit, en plus long et avec les figures :
+**[tewf.github.io](https://tewf.github.io)**
+
 ## Recherche
 
 **[bilinear-tensor-optimization](https://github.com/Tewf/bilinear-tensor-optimization)** · *LJK, Université Grenoble Alpes · sous la direction de Jean-Guillaume Dumas · mai à juillet 2024*
