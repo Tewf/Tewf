@@ -27,7 +27,7 @@ mécanisme l'expliquerait.
 
 ## Projets et cursus
 
-**[side-projects](https://github.com/Tewf/side-projects)** : ce que je construis
+**[after-hours](https://github.com/Tewf/after-hours)** : ce que je construis
 sur mon temps libre. Un CNN qui apprend Flappy Bird à partir des pixels bruts, un
 solveur 3-SAT sur GF(2), des algorithmes matriciels réimplémentés de zéro,
 l'impôt français modélisé avec la fonction W de Lambert.
