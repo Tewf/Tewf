@@ -29,9 +29,9 @@ own time. A CNN that learns Flappy Bird from raw pixels, a 3-SAT solver over
 GF(2), matrix algorithms written from scratch, the French income tax modelled
 with the Lambert W function.
 
-**[University-Coursework](https://github.com/Tewf/University-Coursework)**: my
-academic path at UGA end to end, the Licence MIASHS and the Master of Artificial
-Intelligence as it is produced.
+**[University-Coursework](https://github.com/Tewf/University-Coursework)**: the Licence
+MIASHS and the M1 AI at UGA, end to end. Hedonic pricing that cuts RMSE from €265k to
+€59k, five classifiers compared on ROC, a Battleship bot winning 74% of its games.
 
 ---
 
