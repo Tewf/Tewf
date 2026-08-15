@@ -6,12 +6,6 @@ I'm an M1 student in **Artificial Intelligence** at **Université Grenoble Alpes
 (UFR IM²AG and Ensimag), holder of the **EFELIA-MIAI** excellence scholarship and
 of the French **student-entrepreneur** status (SNEE).
 
-I like problems where the answer can be measured: what a computation actually
-costs, and what agents end up doing once you let them optimise. That takes me
-from tensor algebra to game theory to whatever I feel like building on a weekend.
-
-Always happy to talk about any of it.
-
 ## Research
 
 **[bilinear-tensor-optimization](https://github.com/Tewf/bilinear-tensor-optimization)**:
