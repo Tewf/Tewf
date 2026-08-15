@@ -3,10 +3,10 @@
 🇬🇧 [English version](README.md)
 
 Étudiant en M1 **Intelligence Artificielle** à l'**Université Grenoble Alpes**
-(UFR IM²AG et Ensimag), lauréat de la bourse d'excellence **EFELIA–MIAI** et
+(UFR IM²AG et Ensimag), lauréat de la bourse d'excellence **EFELIA-MIAI** et
 titulaire du statut national **étudiant-entrepreneur** (SNEE).
 
-J'aime les problèmes dont on peut mesurer la réponse — ce qu'un calcul coûte
+J'aime les problèmes dont on peut mesurer la réponse : ce qu'un calcul coûte
 réellement, et ce que des agents finissent par faire une fois qu'on les laisse
 optimiser. Ça me mène de l'algèbre tensorielle à la théorie des jeux, en passant
 par ce que j'ai envie de construire un week-end.
@@ -15,25 +15,25 @@ Toujours partant pour en discuter.
 
 ## Recherche
 
-**[bilinear-tensor-optimization](https://github.com/Tewf/bilinear-tensor-optimization)**
-— stage au **LJK**, sous la direction de Jean-Guillaume Dumas, sur la réduction
-du rang des applications bilinéaires : combien de multiplications un produit
-demande réellement.
+**[bilinear-tensor-optimization](https://github.com/Tewf/bilinear-tensor-optimization)** :
+stage au **LJK**, sous la direction de Jean-Guillaume Dumas, sur la réduction du
+rang des applications bilinéaires. Combien de multiplications un produit
+demande-t-il réellement ?
 
-**[IA-Economie-Strategique](https://github.com/Tewf/IA-Economie-Strategique)** —
+**[IA-Economie-Strategique](https://github.com/Tewf/IA-Economie-Strategique)** :
 stage au **GAEL** (UGA / INRAE), sur la question de savoir si des agents IA
 finissent par s'entendre dans une concurrence par les prix répétée, et quel
 mécanisme l'expliquerait.
 
 ## Projets et cursus
 
-**[side-projects](https://github.com/Tewf/side-projects)** — ce que je construis
+**[side-projects](https://github.com/Tewf/side-projects)** : ce que je construis
 sur mon temps libre. Un CNN qui apprend Flappy Bird à partir des pixels bruts, un
 solveur 3-SAT sur GF(2), des algorithmes matriciels réimplémentés de zéro,
 l'impôt français modélisé avec la fonction W de Lambert.
 
-**[University-Coursework](https://github.com/Tewf/University-Coursework)** — tout
-mon parcours universitaire à l'UGA : la Licence MIASHS, et le Master Intelligence
+**[University-Coursework](https://github.com/Tewf/University-Coursework)** : tout
+mon parcours universitaire à l'UGA, la Licence MIASHS et le Master Intelligence
 Artificielle au fil de sa production.
 
 ---
