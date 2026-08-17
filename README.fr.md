@@ -19,14 +19,22 @@ des bases alternatives fait passer la multiplication de polynômes 5×5 sur GF(2
 multiplications à 14**, et réduit quatre applications de référence de 37 % à 44 %. C'est
 une heuristique : elle ne prouve pas que les décompositions trouvées sont optimales.
 
-**[IA-Economie-Strategique](https://github.com/Tewf/IA-Economie-Strategique)** · *GAEL, UGA et INRAE · sous la direction d'Alexis Garapin et Olivier Bonroy · janvier à avril 2025*
+**[IA-Economie-Strategique](https://github.com/Tewf/IA-Economie-Strategique)** · [le parcourir ↗](https://tewf.github.io/IA-Economie-Strategique/) · *GAEL, UGA et INRAE · sous la direction d'Alexis Garapin et Olivier Bonroy · janvier à avril 2025*
 
 Dans une concurrence par les prix répétée, les joueurs humains convergent plutôt vers des
 prix tacitement collusifs que vers l'équilibre concurrentiel. Savoir si les algorithmes
 soutiennent ce comportement, le rompent ou l'intensifient reste une question ouverte, aux
-conséquences directes pour la politique de concurrence. Le stage a produit un état de
-l'art, un modèle du mécanisme d'imitation et un agent Prolog engagé dans un tournoi. C'est
-un travail exploratoire : il ne tranche pas la question.
+conséquences directes pour la politique de concurrence. Le stage a produit un état de l'art
+et proposé deux mécanismes sans en exécuter aucun ; je les ai depuis exécutés tous les deux,
+contre les mêmes adversaires et avec une seule mesure. L'agent d'imitation dont le rapport
+attendait qu'un Tit-for-Tat émerge termine **huitième sur huit, derrière un tirage à pile ou
+face**, car la mise à jour qu'il implémente ne peut pas dépendre du dernier tour. Cinq
+modèles de langage locaux ont ensuite joué 220 matchs du même jeu : placés sur une ouverture
+de défection mutuelle qu'ils n'ont pas choisie, **trois des quatre modèles lisibles n'en
+sortent jamais**, et un message non contraignant n'en libère exactement qu'un. La
+communication n'est ni nécessaire ni suffisante pour sortir d'un régime imposé — c'est le
+modèle interrogé qui tranche. Cela reste exploratoire : cinq petits modèles quantifiés ne
+font pas une population.
 
 ## Projets et cursus
 
