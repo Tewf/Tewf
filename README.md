@@ -19,14 +19,20 @@ cuts 5×5 polynomial multiplication over GF(2) from **25 multiplications to 14**
 reduces four benchmark maps by 37% to 44%. It is a heuristic: it does not prove the
 decompositions it finds are optimal.
 
-**[IA-Economie-Strategique](https://github.com/Tewf/IA-Economie-Strategique)** · *GAEL, UGA and INRAE · supervised by Alexis Garapin and Olivier Bonroy · January to April 2025*
+**[IA-Economie-Strategique](https://github.com/Tewf/IA-Economie-Strategique)** · [browse it ↗](https://tewf.github.io/IA-Economie-Strategique/) · *GAEL, UGA and INRAE · supervised by Alexis Garapin and Olivier Bonroy · January to April 2025*
 
 In repeated price competition, human players tend to settle on tacitly collusive prices
 rather than the competitive equilibrium. Whether algorithms sustain that behaviour, break
 it or intensify it is an open question, and one with direct consequences for competition
-policy. The internship produced a survey of the literature, a model of the imitation
-mechanism, and a Prolog agent entered into a tournament. It is exploratory work: it did
-not settle the question.
+policy. The internship surveyed the literature and proposed two mechanisms without running
+either; I have since run both, on shared opponents and one measure. The imitation agent the
+report expected Tit-for-Tat to emerge from finishes **eighth of eight, behind a coin
+flip**, because the update it implements cannot depend on the last round. Five local
+language models then played 220 matches of the same game: handed a mutually defecting
+opening they did not choose, **three of the four readable models never leave it**, and a
+non-binding message frees exactly one of the three. Communication is neither necessary nor
+sufficient for escaping an imposed regime — which model you ask decides it. It remains
+exploratory: five small quantised models are not a population.
 
 ## Projects and studies
 
