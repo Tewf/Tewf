@@ -31,8 +31,8 @@ flip**, because the update it implements cannot depend on the last round. Five l
 language models then played 220 matches of the same game: handed a mutually defecting
 opening they did not choose, **three of the four readable models never leave it**, and a
 non-binding message frees exactly one of the three. Communication is neither necessary nor
-sufficient for escaping an imposed regime — which model you ask decides it. It remains
-exploratory: five small quantised models are not a population.
+sufficient for escaping an imposed regime: which model you ask is what decides it. It
+remains exploratory, since five small quantised models are not a population.
 
 ## Projects and studies
 

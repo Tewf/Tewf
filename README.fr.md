@@ -32,9 +32,9 @@ face**, car la mise à jour qu'il implémente ne peut pas dépendre du dernier t
 modèles de langage locaux ont ensuite joué 220 matchs du même jeu : placés sur une ouverture
 de défection mutuelle qu'ils n'ont pas choisie, **trois des quatre modèles lisibles n'en
 sortent jamais**, et un message non contraignant n'en libère exactement qu'un. La
-communication n'est ni nécessaire ni suffisante pour sortir d'un régime imposé — c'est le
-modèle interrogé qui tranche. Cela reste exploratoire : cinq petits modèles quantifiés ne
-font pas une population.
+communication n'est ni nécessaire ni suffisante pour sortir d'un régime imposé : c'est le
+modèle interrogé qui tranche. Cela reste exploratoire, car cinq petits modèles quantifiés
+ne font pas une population.
 
 ## Projets et cursus
 
