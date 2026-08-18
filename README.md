@@ -25,14 +25,18 @@ In repeated price competition, human players tend to settle on tacitly collusive
 rather than the competitive equilibrium. Whether algorithms sustain that behaviour, break
 it or intensify it is an open question, and one with direct consequences for competition
 policy. The internship surveyed the literature and proposed two mechanisms without running
-either; I have since run both, on shared opponents and one measure. The imitation agent the
-report expected Tit-for-Tat to emerge from finishes **eighth of eight, behind a coin
-flip**, because the update it implements cannot depend on the last round. Five local
-language models then played 220 matches of the same game: handed a mutually defecting
-opening they did not choose, **three of the four readable models never leave it**, and a
-non-binding message frees exactly one of the three. Communication is neither necessary nor
-sufficient for escaping an imposed regime: which model you ask is what decides it. It
-remains exploratory, since five small quantised models are not a population.
+either; I have since run both, on shared opponents and one measure, and written them up as
+[an article](https://tewf.github.io/IA-Economie-Strategique/article/paper.html). The
+imitation agent the report expected Tit-for-Tat to emerge from finishes **eighth of eight,
+behind a coin flip**, because the update it implements cannot depend on the last round.
+Five local language models then played 220 matches of the same game: handed a mutually
+defecting opening they did not choose, **three of the four readable models never leave
+it**, and a non-binding message frees exactly one of the three. What separates them is how
+a model ranks the evidence it is handed: a fabricated opening round outranks a message
+arriving at the same moment for one model and loses to it for another, and the model no
+message ever moves is the one whose messages propose nothing. Communication is neither
+necessary nor sufficient for escaping an imposed regime: which model you ask is what
+decides it. It remains exploratory, since five small quantised models are not a population.
 
 ## Projects and studies
 

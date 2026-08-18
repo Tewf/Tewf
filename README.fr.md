@@ -26,15 +26,19 @@ prix tacitement collusifs que vers l'équilibre concurrentiel. Savoir si les alg
 soutiennent ce comportement, le rompent ou l'intensifient reste une question ouverte, aux
 conséquences directes pour la politique de concurrence. Le stage a produit un état de l'art
 et proposé deux mécanismes sans en exécuter aucun ; je les ai depuis exécutés tous les deux,
-contre les mêmes adversaires et avec une seule mesure. L'agent d'imitation dont le rapport
-attendait qu'un Tit-for-Tat émerge termine **huitième sur huit, derrière un tirage à pile ou
-face**, car la mise à jour qu'il implémente ne peut pas dépendre du dernier tour. Cinq
-modèles de langage locaux ont ensuite joué 220 matchs du même jeu : placés sur une ouverture
-de défection mutuelle qu'ils n'ont pas choisie, **trois des quatre modèles lisibles n'en
-sortent jamais**, et un message non contraignant n'en libère exactement qu'un. La
-communication n'est ni nécessaire ni suffisante pour sortir d'un régime imposé : c'est le
-modèle interrogé qui tranche. Cela reste exploratoire, car cinq petits modèles quantifiés
-ne font pas une population.
+contre les mêmes adversaires et avec une seule mesure, puis rédigés sous forme
+d'[article](https://tewf.github.io/IA-Economie-Strategique/article/paper.fr.html). L'agent
+d'imitation dont le rapport attendait qu'un Tit-for-Tat émerge termine **huitième sur huit,
+derrière un tirage à pile ou face**, car la mise à jour qu'il implémente ne peut pas
+dépendre du dernier tour. Cinq modèles de langage locaux ont ensuite joué 220 matchs du même
+jeu : placés sur une ouverture de défection mutuelle qu'ils n'ont pas choisie, **trois des
+quatre modèles lisibles n'en sortent jamais**, et un message non contraignant n'en libère
+exactement qu'un. Ce qui les sépare est la façon dont un modèle hiérarchise les indices
+qu'on lui donne : un premier tour fabriqué l'emporte sur un message arrivé au même instant
+chez l'un et lui cède chez l'autre, et le modèle qu'aucun message ne déplace est celui dont
+les messages ne proposent rien. La communication n'est ni nécessaire ni suffisante pour
+sortir d'un régime imposé : c'est le modèle interrogé qui tranche. Cela reste exploratoire,
+car cinq petits modèles quantifiés ne font pas une population.
 
 ## Projets et cursus
 
