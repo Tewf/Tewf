@@ -13,48 +13,34 @@ Everything below, at more length and with the figures:
 
 **[bilinear-tensor-optimization](https://github.com/Tewf/bilinear-tensor-optimization)** · *LJK, Université Grenoble Alpes · supervised by Jean-Guillaume Dumas · May to July 2024*
 
-The rank of a bilinear map is the number of multiplications it needs, which is where
-Strassen's seven-instead-of-eight comes from. A heuristic search over alternative bases
-cuts 5×5 polynomial multiplication over GF(2) from **25 multiplications to 14**, and
-reduces four benchmark maps by 37% to 44%. It is a heuristic: it does not prove the
-decompositions it finds are optimal.
+The rank of a bilinear map is the number of multiplications it needs; Strassen's
+seven-instead-of-eight is the known case. A heuristic search over alternative bases takes
+5×5 polynomial multiplication over GF(2) from **25 multiplications to 14**, and four
+benchmark maps down by 37% to 44%. It does not prove those decompositions optimal.
 
-**[IA-Economie-Strategique](https://github.com/Tewf/IA-Economie-Strategique)** · [browse it ↗](https://tewf.github.io/IA-Economie-Strategique/) · *GAEL, UGA and INRAE · supervised by Alexis Garapin and Olivier Bonroy · January to April 2025*
+**[IA-Economie-Strategique](https://github.com/Tewf/IA-Economie-Strategique)** · [browse it ↗](https://tewf.github.io/IA-Economie-Strategique/) · [the article ↗](https://tewf.github.io/IA-Economie-Strategique/article/paper.html) · *GAEL, UGA and INRAE · supervised by Alexis Garapin and Olivier Bonroy · January to April 2025*
 
-In repeated price competition, human players tend to settle on tacitly collusive prices
-rather than the competitive equilibrium. Whether algorithms sustain that behaviour, break
-it or intensify it is an open question, and one with direct consequences for competition
-policy. The internship surveyed the literature and proposed two mechanisms without running
-either; I have since run both, on shared opponents and one measure, and written them up as
-[an article](https://tewf.github.io/IA-Economie-Strategique/article/paper.html). The
-imitation agent the report expected Tit-for-Tat to emerge from finishes **eighth of eight,
-behind a coin flip**, because the update it implements cannot depend on the last round.
-Five local language models then played 220 matches of the same game: handed a mutually
-defecting opening they did not choose, **three of the four readable models never leave
-it**, and a non-binding message frees exactly one of the three. What separates them is how
-a model ranks the evidence it is handed: a fabricated opening round outranks a message
-arriving at the same moment for one model and loses to it for another, and the model no
-message ever moves is the one whose messages propose nothing. Communication is neither
-necessary nor sufficient for escaping an imposed regime: which model you ask is what
-decides it. It remains exploratory, since five small quantised models are not a population.
+Do pricing algorithms sustain tacit collusion or break it? The internship proposed two
+mechanisms without running either, and I have since run both. The imitation agent finishes
+**eighth of eight, behind a coin flip**. Five local language models then played 220
+matches: handed a mutually defecting opening, **three of the four readable ones never leave
+it**, and a non-binding message frees exactly one. Escaping an imposed regime is a property
+of the model rather than of the channel.
 
 ## Projects and studies
 
 **[after-hours](https://github.com/Tewf/after-hours)** · [browse it ↗](https://tewf.github.io/after-hours/)
 
 A CNN learning Flappy Bird from raw pixels, where the largest gain came from the
-observation rather than from any hyperparameter: the bird is yellow and the sky is light
-blue, so the two are nearly equiluminant, and taking the blue channel instead of a
-luminance greyscale moved the agent from 0.4 pipes to **12.65** at the same 250k steps.
-Alongside it, a 3-SAT solver over GF(2), matrix algorithms written from scratch and
-checked against NumPy to 1e-13, and the French income tax modelled with the Lambert W
-function.
+observation rather than a hyperparameter: taking the blue channel instead of a luminance
+greyscale moved the agent from 0.4 pipes to **12.65** at the same 250k steps. Alongside it,
+a 3-SAT solver over GF(2) and the French income tax modelled with the Lambert W function.
 
 **[University-Coursework](https://github.com/Tewf/University-Coursework)** · [browse it ↗](https://tewf.github.io/University-Coursework/)
 
-The Licence MIASHS and the M1 AI at UGA, end to end. Hedonic pricing that cuts RMSE from
+The Licence MIASHS and the M1 AI at UGA, end to end: hedonic pricing that cuts RMSE from
 €265k to €59k, four classifiers compared on ROC over 24 000 fragrances, and a Battleship
-bot winning 74.3% of its games, which you can watch playing a recorded game.
+bot winning 74.3% of its games.
 
 ---
 
@@ -64,5 +50,5 @@ bot winning 74.3% of its games, which you can watch playing a recorded game.
 | **Libraries** | PyTorch · scikit-learn · tidyverse · Quarto |
 | **Spoken** | Arabic · French · English |
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohamed%20Hamlil-blue?logo=linkedin)](https://linkedin.com/in/mohamed-hamlil-4aa3a7335)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohamed%20Hamlil-blue?logo=linkedin)](https://linkedin.com/in/mohamedalitewfikhamlil)
 [![Email](https://img.shields.io/badge/Email-UGA-blue?logo=gmail)](mailto:mohamed.hamlil@etu.univ-grenoble-alpes.fr)
