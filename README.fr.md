@@ -19,6 +19,14 @@ bases alternatives fait passer la multiplication de polynômes 5×5 sur GF(2) de
 multiplications à 14**, et réduit quatre applications de référence de 37 % à 44 %. Elle ne
 prouve pas que ces décompositions sont optimales.
 
+**[tensor-rank-toolkit](https://github.com/Tewf/tensor-rank-toolkit)** · [le parcourir ↗](https://tewf.github.io/tensor-rank-toolkit/) · *la même question, poursuivie de façon indépendante en C++20 sur Givaro*
+
+Là où le stage cherchait heuristiquement, celui-ci décide. Neuf approches, d'une descente
+bon marché à un solveur SAT avec réfutations vérifiées : `25 → 14` produits pour 5×5 sur
+GF(2), et un rang de **13 prouvé par exhaustion** plutôt que deviné. Rien ici n'est jamais
+un flottant, donc un rang annoncé est un fait sur l'application et non un artefact
+d'arrondi.
+
 **[IA-Economie-Strategique](https://github.com/Tewf/IA-Economie-Strategique)** · [le parcourir ↗](https://tewf.github.io/IA-Economie-Strategique/) · [l'article ↗](https://tewf.github.io/IA-Economie-Strategique/article/paper.fr.html) · *GAEL, UGA et INRAE · sous la direction d'Alexis Garapin et Olivier Bonroy · janvier à avril 2025*
 
 Les algorithmes de tarification entretiennent-ils la collusion tacite ou la rompent-ils ?
@@ -42,14 +50,14 @@ Lambert.
 **[University-Coursework](https://github.com/Tewf/University-Coursework)** · [parcourir ↗](https://tewf.github.io/University-Coursework/)
 
 La Licence MIASHS et le M1 IA à l'UGA, de bout en bout : des prix hédoniques qui ramènent
-le RMSE de 265 k€ à 59 k€, quatre classifieurs comparés sur ROC sur 24 000 parfums, et un
+le RMSE de 265 k€ à 59 k€, cinq familles de modèles comparées sur ROC sur 24 000 parfums, et un
 bot de bataille navale qui gagne 74,3 % de ses parties.
 
 ---
 
 | | |
 |---|---|
-| **Langages** | Python · Java · R · Julia · SQL · Prolog |
+| **Langages** | C++ · Python · Java · R · Julia · SQL · Prolog |
 | **Bibliothèques** | PyTorch · scikit-learn · tidyverse · Quarto |
 | **Langues parlées** | arabe · français · anglais |
 

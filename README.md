@@ -18,6 +18,13 @@ seven-instead-of-eight is the known case. A heuristic search over alternative ba
 5×5 polynomial multiplication over GF(2) from **25 multiplications to 14**, and four
 benchmark maps down by 37% to 44%. It does not prove those decompositions optimal.
 
+**[tensor-rank-toolkit](https://github.com/Tewf/tensor-rank-toolkit)** · [browse it ↗](https://tewf.github.io/tensor-rank-toolkit/) · *the same question, continued independently in C++20 on Givaro*
+
+Where the internship searched heuristically, this decides. Nine strands, from a cheap
+descent to a SAT solver with checked refutations: `25 → 14` products for 5×5 over GF(2),
+and a rank of **13 proved by exhaustion** rather than guessed. Nothing here is ever a
+float, so a reported rank is a fact about the map and not an artefact of rounding.
+
 **[IA-Economie-Strategique](https://github.com/Tewf/IA-Economie-Strategique)** · [browse it ↗](https://tewf.github.io/IA-Economie-Strategique/) · [the article ↗](https://tewf.github.io/IA-Economie-Strategique/article/paper.html) · *GAEL, UGA and INRAE · supervised by Alexis Garapin and Olivier Bonroy · January to April 2025*
 
 Do pricing algorithms sustain tacit collusion or break it? The internship proposed two
@@ -39,14 +46,14 @@ a 3-SAT solver over GF(2) and the French income tax modelled with the Lambert W 
 **[University-Coursework](https://github.com/Tewf/University-Coursework)** · [browse it ↗](https://tewf.github.io/University-Coursework/)
 
 The Licence MIASHS and the M1 AI at UGA, end to end: hedonic pricing that cuts RMSE from
-€265k to €59k, four classifiers compared on ROC over 24 000 fragrances, and a Battleship
+€265k to €59k, five model families compared on ROC over 24 000 fragrances, and a Battleship
 bot winning 74.3% of its games.
 
 ---
 
 | | |
 |---|---|
-| **Languages** | Python · Java · R · Julia · SQL · Prolog |
+| **Languages** | C++ · Python · Java · R · Julia · SQL · Prolog |
 | **Libraries** | PyTorch · scikit-learn · tidyverse · Quarto |
 | **Spoken** | Arabic · French · English |
 
