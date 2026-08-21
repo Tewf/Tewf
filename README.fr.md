@@ -22,10 +22,10 @@ prouve pas que ces décompositions sont optimales.
 **[tensor-rank-toolkit](https://github.com/Tewf/tensor-rank-toolkit)** · [le parcourir ↗](https://tewf.github.io/tensor-rank-toolkit/) · *la même question, poursuivie de façon indépendante en C++20 sur Givaro*
 
 Là où le stage cherchait heuristiquement, celui-ci décide. Il va d'une descente bon marché
-jusqu'à un encodage SAT dont les réfutations se vérifient en DRAT : `25 → 14` produits
-pour 5×5 sur GF(2), et le rang de la multiplication de matrices 2×2 établi à **7 par
-exhaustion**, trouvé et vérifié à 7, réfuté à 6. Rien ici n'est jamais un flottant, donc
-un rang annoncé est un fait sur l'application et non un artefact d'arrondi.
+jusqu'à un encodage SAT dont les réfutations se vérifient en DRAT. Sur la même application
+5×5 sur GF(2) que le stage amenait à 14 produits, une recherche exhaustive fixe le rang à
+exactement **13**, en réfutant 12 sur 146 millions de nœuds. Rien ici n'est jamais un
+flottant, donc un rang annoncé est un fait sur l'application et non un artefact d'arrondi.
 
 **[IA-Economie-Strategique](https://github.com/Tewf/IA-Economie-Strategique)** · [le parcourir ↗](https://tewf.github.io/IA-Economie-Strategique/) · [l'article ↗](https://tewf.github.io/IA-Economie-Strategique/article/paper.fr.html) · *GAEL, UGA et INRAE · sous la direction d'Alexis Garapin et Olivier Bonroy · janvier à avril 2025*
 
@@ -49,9 +49,10 @@ Lambert.
 
 **[University-Coursework](https://github.com/Tewf/University-Coursework)** · [parcourir ↗](https://tewf.github.io/University-Coursework/)
 
-La Licence MIASHS et le M1 IA à l'UGA, de bout en bout : des prix hédoniques qui ramènent
-le RMSE de 265 k€ à 59 k€, cinq familles de modèles comparées sur ROC sur 24 000 parfums, et un
-bot de bataille navale qui gagne 74,3 % de ses parties.
+La Licence MIASHS et le M1 IA à l'UGA, de bout en bout : des prix hédoniques où c'est la
+spécification log-linéaire qui fait tenir le modèle, cinq classifieurs évalués sur 24 000
+parfums dont les quatre retenus comparés sur ROC, et un bot de bataille navale qui gagne
+74,3 % de 300 parties en tournoi toutes rondes.
 
 ---
 
