@@ -21,11 +21,11 @@ prouve pas que ces décompositions sont optimales.
 
 **[tensor-rank-toolkit](https://github.com/Tewf/tensor-rank-toolkit)** · [le parcourir ↗](https://tewf.github.io/tensor-rank-toolkit/) · *la même question, poursuivie de façon indépendante en C++20 sur Givaro*
 
-Là où le stage cherchait heuristiquement, celui-ci décide. Neuf approches, d'une descente
-bon marché à un solveur SAT avec réfutations vérifiées : `25 → 14` produits pour 5×5 sur
-GF(2), et un rang de **13 prouvé par exhaustion** plutôt que deviné. Rien ici n'est jamais
-un flottant, donc un rang annoncé est un fait sur l'application et non un artefact
-d'arrondi.
+Là où le stage cherchait heuristiquement, celui-ci décide. Il va d'une descente bon marché
+jusqu'à un encodage SAT dont les réfutations se vérifient en DRAT : `25 → 14` produits
+pour 5×5 sur GF(2), et le rang de la multiplication de matrices 2×2 établi à **7 par
+exhaustion**, trouvé et vérifié à 7, réfuté à 6. Rien ici n'est jamais un flottant, donc
+un rang annoncé est un fait sur l'application et non un artefact d'arrondi.
 
 **[IA-Economie-Strategique](https://github.com/Tewf/IA-Economie-Strategique)** · [le parcourir ↗](https://tewf.github.io/IA-Economie-Strategique/) · [l'article ↗](https://tewf.github.io/IA-Economie-Strategique/article/paper.fr.html) · *GAEL, UGA et INRAE · sous la direction d'Alexis Garapin et Olivier Bonroy · janvier à avril 2025*
 

@@ -20,10 +20,11 @@ benchmark maps down by 37% to 44%. It does not prove those decompositions optima
 
 **[tensor-rank-toolkit](https://github.com/Tewf/tensor-rank-toolkit)** · [browse it ↗](https://tewf.github.io/tensor-rank-toolkit/) · *the same question, continued independently in C++20 on Givaro*
 
-Where the internship searched heuristically, this decides. Nine strands, from a cheap
-descent to a SAT solver with checked refutations: `25 → 14` products for 5×5 over GF(2),
-and a rank of **13 proved by exhaustion** rather than guessed. Nothing here is ever a
-float, so a reported rank is a fact about the map and not an artefact of rounding.
+Where the internship searched heuristically, this decides. It runs from a cheap descent
+up to a SAT encoding whose refutations are checkable as DRAT: `25 → 14` products for 5×5
+over GF(2), and the rank of 2×2 matrix multiplication settled at **7 by exhaustion**,
+found and checked at 7 and refuted at 6. Nothing here is ever a float, so a reported rank
+is a fact about the map and not an artefact of rounding.
 
 **[IA-Economie-Strategique](https://github.com/Tewf/IA-Economie-Strategique)** · [browse it ↗](https://tewf.github.io/IA-Economie-Strategique/) · [the article ↗](https://tewf.github.io/IA-Economie-Strategique/article/paper.html) · *GAEL, UGA and INRAE · supervised by Alexis Garapin and Olivier Bonroy · January to April 2025*
 
