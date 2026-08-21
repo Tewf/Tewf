@@ -20,11 +20,11 @@ benchmark maps down by 37% to 44%. It does not prove those decompositions optima
 
 **[tensor-rank-toolkit](https://github.com/Tewf/tensor-rank-toolkit)** · [browse it ↗](https://tewf.github.io/tensor-rank-toolkit/) · *the same question, continued independently in C++20 on Givaro*
 
-Where the internship searched heuristically, this decides. It runs from a cheap descent
-up to a SAT encoding whose refutations are checkable as DRAT: `25 → 14` products for 5×5
-over GF(2), and the rank of 2×2 matrix multiplication settled at **7 by exhaustion**,
-found and checked at 7 and refuted at 6. Nothing here is ever a float, so a reported rank
-is a fact about the map and not an artefact of rounding.
+Where the internship searched heuristically, this decides. It runs from a cheap descent up
+to a SAT encoding whose refutations are checkable as DRAT. On the same 5×5 map over GF(2)
+that the internship took to 14 products, an exhaustive search settles the rank at exactly
+**13**, refuting 12 over 146 million nodes. Nothing here is ever a float, so a reported
+rank is a fact about the map and not an artefact of rounding.
 
 **[IA-Economie-Strategique](https://github.com/Tewf/IA-Economie-Strategique)** · [browse it ↗](https://tewf.github.io/IA-Economie-Strategique/) · [the article ↗](https://tewf.github.io/IA-Economie-Strategique/article/paper.html) · *GAEL, UGA and INRAE · supervised by Alexis Garapin and Olivier Bonroy · January to April 2025*
 
@@ -46,9 +46,10 @@ a 3-SAT solver over GF(2) and the French income tax modelled with the Lambert W 
 
 **[University-Coursework](https://github.com/Tewf/University-Coursework)** · [browse it ↗](https://tewf.github.io/University-Coursework/)
 
-The Licence MIASHS and the M1 AI at UGA, end to end: hedonic pricing that cuts RMSE from
-€265k to €59k, five model families compared on ROC over 24 000 fragrances, and a Battleship
-bot winning 74.3% of its games.
+The Licence MIASHS and the M1 AI at UGA, end to end: hedonic pricing where the log-linear
+specification is what makes the model work, five classifiers evaluated over 24 000
+fragrances and the four retained compared on ROC, and a Battleship bot winning 74.3% of
+300 round-robin games.
 
 ---
 
