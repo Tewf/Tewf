@@ -11,7 +11,7 @@ Tout ce qui suit, en plus long et avec les figures :
 
 ## Recherche
 
-**[bilinear-tensor-optimization](https://github.com/Tewf/bilinear-tensor-optimization)** · *LJK, Université Grenoble Alpes · sous la direction de Jean-Guillaume Dumas · mai à juillet 2024*
+**[bilinear-tensor-optimization](https://github.com/Tewf/bilinear-tensor-optimization)** · [le parcourir ↗](https://tewf.github.io/bilinear-tensor-optimization/) · *LJK, Université Grenoble Alpes · sous la direction de Jean-Guillaume Dumas · mai à juillet 2024*
 
 Le rang d'une application bilinéaire est le nombre de multiplications qu'elle demande ; le
 sept-au-lieu-de-huit de Strassen en est le cas connu. Une recherche heuristique sur des
