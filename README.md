@@ -26,6 +26,11 @@ that the internship took to 14 products, an exhaustive search settles the rank a
 **13**, refuting 12 over 146 million nodes. Nothing here is ever a float, so a reported
 rank is a fact about the map and not an artefact of rounding.
 
+Multiplications are half the cost; the additions are set by how many nonzero entries the
+operators carry. On the operators of a published rank-23 ⟨3,3,3⟩ scheme it takes **221
+nonzeros to 128**, against 167 for the field's reference implementation, and 128 is the
+**least any change of basis can leave** rather than the best found.
+
 **[IA-Economie-Strategique](https://github.com/Tewf/IA-Economie-Strategique)** · [browse it ↗](https://tewf.github.io/IA-Economie-Strategique/) · [the article ↗](https://tewf.github.io/IA-Economie-Strategique/article/paper.html) · *GAEL, UGA and INRAE · supervised by Alexis Garapin and Olivier Bonroy · January to April 2025*
 
 Do pricing algorithms sustain tacit collusion or break it? The internship proposed two

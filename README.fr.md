@@ -27,6 +27,12 @@ jusqu'à un encodage SAT dont les réfutations se vérifient en DRAT. Sur la mê
 exactement **13**, en réfutant 12 sur 146 millions de nœuds. Rien ici n'est jamais un
 flottant, donc un rang annoncé est un fait sur l'application et non un artefact d'arrondi.
 
+Les multiplications ne sont que la moitié du coût : les additions, elles, tiennent au
+nombre de coefficients non nuls des opérateurs. Sur ceux d'un schéma ⟨3,3,3⟩ de rang 23
+déjà publié, il passe de **221 non-nuls à 128**, contre 167 pour l'implémentation de
+référence du domaine, et 128 est le **minimum que tout changement de base peut atteindre**,
+non le meilleur résultat trouvé.
+
 **[IA-Economie-Strategique](https://github.com/Tewf/IA-Economie-Strategique)** · [le parcourir ↗](https://tewf.github.io/IA-Economie-Strategique/) · [l'article ↗](https://tewf.github.io/IA-Economie-Strategique/article/paper.fr.html) · *GAEL, UGA et INRAE · sous la direction d'Alexis Garapin et Olivier Bonroy · janvier à avril 2025*
 
 Les algorithmes de tarification entretiennent-ils la collusion tacite ou la rompent-ils ?
