@@ -11,7 +11,7 @@ Everything below, at more length and with the figures:
 
 ## Research
 
-**[bilinear-tensor-optimization](https://github.com/Tewf/bilinear-tensor-optimization)** · *LJK, Université Grenoble Alpes · supervised by Jean-Guillaume Dumas · May to July 2024*
+**[bilinear-tensor-optimization](https://github.com/Tewf/bilinear-tensor-optimization)** · [browse it ↗](https://tewf.github.io/bilinear-tensor-optimization/) · *LJK, Université Grenoble Alpes · supervised by Jean-Guillaume Dumas · May to July 2024*
 
 The rank of a bilinear map is the number of multiplications it needs; Strassen's
 seven-instead-of-eight is the known case. A heuristic search over alternative bases takes
