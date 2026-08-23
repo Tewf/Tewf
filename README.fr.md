@@ -19,7 +19,7 @@ bases alternatives fait passer la multiplication de polynômes 5×5 sur GF(2) de
 multiplications à 14**, et réduit quatre applications de référence de 37 % à 44 %. Elle ne
 prouve pas que ces décompositions sont optimales.
 
-**[tensor-rank-toolkit](https://github.com/Tewf/tensor-rank-toolkit)** · [le parcourir ↗](https://tewf.github.io/tensor-rank-toolkit/) · *la même question, poursuivie de façon indépendante en C++20 sur Givaro · v0.4.0*
+**[tensor-rank-toolkit](https://github.com/Tewf/tensor-rank-toolkit)** · [le parcourir ↗](https://tewf.github.io/tensor-rank-toolkit/) · *la même question, poursuivie de façon indépendante en C++20 sur Givaro · v0.4.1*
 
 Là où le stage cherchait heuristiquement, celui-ci décide. Il va d'une descente bon marché
 jusqu'à un encodage SAT dont les réfutations se vérifient en DRAT. Sur la même application

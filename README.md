@@ -18,7 +18,7 @@ seven-instead-of-eight is the known case. A heuristic search over alternative ba
 5×5 polynomial multiplication over GF(2) from **25 multiplications to 14**, and four
 benchmark maps down by 37% to 44%. It does not prove those decompositions optimal.
 
-**[tensor-rank-toolkit](https://github.com/Tewf/tensor-rank-toolkit)** · [browse it ↗](https://tewf.github.io/tensor-rank-toolkit/) · *the same question, continued independently in C++20 on Givaro · v0.4.0*
+**[tensor-rank-toolkit](https://github.com/Tewf/tensor-rank-toolkit)** · [browse it ↗](https://tewf.github.io/tensor-rank-toolkit/) · *the same question, continued independently in C++20 on Givaro · v0.4.1*
 
 Where the internship searched heuristically, this decides. It runs from a cheap descent up
 to a SAT encoding whose refutations are checkable as DRAT. On the same 5×5 map over GF(2)
