@@ -18,7 +18,7 @@ seven-instead-of-eight is the known case. A heuristic search over alternative ba
 5×5 polynomial multiplication over GF(2) from **25 multiplications to 14**, and four
 benchmark maps down by 37% to 44%. It does not prove those decompositions optimal.
 
-**[tensor-rank-toolkit](https://github.com/Tewf/tensor-rank-toolkit)** · [browse it ↗](https://tewf.github.io/tensor-rank-toolkit/) · *the same question, continued independently in C++20 on Givaro*
+**[tensor-rank-toolkit](https://github.com/Tewf/tensor-rank-toolkit)** · [browse it ↗](https://tewf.github.io/tensor-rank-toolkit/) · *the same question, continued independently in C++20 on Givaro · v0.4.0*
 
 Where the internship searched heuristically, this decides. It runs from a cheap descent up
 to a SAT encoding whose refutations are checkable as DRAT. On the same 5×5 map over GF(2)
@@ -29,7 +29,8 @@ rank is a fact about the map and not an artefact of rounding.
 Multiplications are half the cost; the additions are set by how many nonzero entries the
 operators carry. On the operators of a published rank-23 ⟨3,3,3⟩ scheme it takes **221
 nonzeros to 128**, against 167 for the field's reference implementation, and 128 is the
-**least any change of basis can leave** rather than the best found.
+**least any change of basis can leave** rather than the best found. `main` holds what won;
+`rejected-experiments` holds what lost, with evidence.
 
 **[IA-Economie-Strategique](https://github.com/Tewf/IA-Economie-Strategique)** · [browse it ↗](https://tewf.github.io/IA-Economie-Strategique/) · [the article ↗](https://tewf.github.io/IA-Economie-Strategique/article/paper.html) · *GAEL, UGA and INRAE · supervised by Alexis Garapin and Olivier Bonroy · January to April 2025*
 

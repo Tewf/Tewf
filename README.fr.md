@@ -19,7 +19,7 @@ bases alternatives fait passer la multiplication de polynômes 5×5 sur GF(2) de
 multiplications à 14**, et réduit quatre applications de référence de 37 % à 44 %. Elle ne
 prouve pas que ces décompositions sont optimales.
 
-**[tensor-rank-toolkit](https://github.com/Tewf/tensor-rank-toolkit)** · [le parcourir ↗](https://tewf.github.io/tensor-rank-toolkit/) · *la même question, poursuivie de façon indépendante en C++20 sur Givaro*
+**[tensor-rank-toolkit](https://github.com/Tewf/tensor-rank-toolkit)** · [le parcourir ↗](https://tewf.github.io/tensor-rank-toolkit/) · *la même question, poursuivie de façon indépendante en C++20 sur Givaro · v0.4.0*
 
 Là où le stage cherchait heuristiquement, celui-ci décide. Il va d'une descente bon marché
 jusqu'à un encodage SAT dont les réfutations se vérifient en DRAT. Sur la même application
@@ -31,7 +31,8 @@ Les multiplications ne sont que la moitié du coût : les additions, elles, tien
 nombre de coefficients non nuls des opérateurs. Sur ceux d'un schéma ⟨3,3,3⟩ de rang 23
 déjà publié, il passe de **221 non-nuls à 128**, contre 167 pour l'implémentation de
 référence du domaine, et 128 est le **minimum que tout changement de base peut atteindre**,
-non le meilleur résultat trouvé.
+non le meilleur résultat trouvé. `main` garde ce qui a gagné ; `rejected-experiments` garde
+ce qui a perdu, avec ses preuves.
 
 **[IA-Economie-Strategique](https://github.com/Tewf/IA-Economie-Strategique)** · [le parcourir ↗](https://tewf.github.io/IA-Economie-Strategique/) · [l'article ↗](https://tewf.github.io/IA-Economie-Strategique/article/paper.fr.html) · *GAEL, UGA et INRAE · sous la direction d'Alexis Garapin et Olivier Bonroy · janvier à avril 2025*
 
