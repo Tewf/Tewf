@@ -40,6 +40,13 @@ matches: handed a mutually defecting opening, **three of the four readable ones 
 it**, and a non-binding message frees exactly one. Escaping an imposed regime is a property
 of the model rather than of the channel.
 
+**[FrankWolfe.jl](https://github.com/ZIB-IOL/FrankWolfe.jl/pull/649)** · [the measurements ↗](https://github.com/Tewf/frankwolfe-active-set-lookup) · *upstream contribution, merged September 2026*
+
+One comparison replaces a linear scan of the active set: the LMO's vertex is absent
+whenever `⟨g,v⟩ < ⟨g,s⟩`, so `find_atom` never needs to look. Merged as PR #649,
+closing an issue open since 2021, with the measurements on real runs in their own
+repository.
+
 ## Projects and studies
 
 **[after-hours](https://github.com/Tewf/after-hours)** · [browse it ↗](https://tewf.github.io/after-hours/)

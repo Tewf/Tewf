@@ -43,6 +43,13 @@ ouverture de défection mutuelle, **trois des quatre modèles lisibles n'en sort
 et un message non contraignant n'en libère exactement qu'un. Sortir d'un régime imposé est
 une propriété du modèle plutôt que du canal.
 
+**[FrankWolfe.jl](https://github.com/ZIB-IOL/FrankWolfe.jl/pull/649)** · [les mesures ↗](https://github.com/Tewf/frankwolfe-active-set-lookup) · *contribution amont, fusionnée en septembre 2026*
+
+Une comparaison remplace un parcours linéaire de l'ensemble actif : le sommet du
+LMO est absent dès que `⟨g,v⟩ < ⟨g,s⟩`, donc `find_atom` n'a jamais à chercher.
+Fusionnée comme PR #649, refermant une issue ouverte depuis 2021, avec les mesures
+sur exécutions réelles dans leur propre dépôt.
+
 ## Projets et cursus
 
 **[after-hours](https://github.com/Tewf/after-hours)** · [parcourir ↗](https://tewf.github.io/after-hours/)
